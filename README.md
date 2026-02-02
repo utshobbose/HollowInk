@@ -78,10 +78,6 @@ Edit `src/data/stories.js` and add your story object:
 }
 ```
 
-### Updating Author Info
-
-Edit the About page in `src/pages/About.jsx` to add your name and bio.
-
 ### Changing Colors
 
 Modify the color scheme in `tailwind.config.js` under the `theme.extend.colors` section.
