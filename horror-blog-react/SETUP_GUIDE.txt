@@ -1,0 +1,96 @@
+================================
+HOLLOWINK HORROR BLOG - SETUP
+================================
+
+QUICK START:
+-----------
+
+1. Extract the horror-blog-react folder
+
+2. Open terminal in the horror-blog-react folder
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm start
+
+5. Open http://localhost:3000 in your browser
+
+That's it! The site should now be running locally.
+
+
+FOLDER STRUCTURE:
+----------------
+
+horror-blog-react/
+├── public/
+│   └── index.html              # HTML template
+├── src/
+│   ├── components/             # Reusable components
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── FeaturedStory.jsx
+│   │   ├── StoryCard.jsx
+│   │   ├── StoriesGrid.jsx
+│   │   ├── Newsletter.jsx
+│   │   └── Footer.jsx
+│   ├── pages/                  # Page components
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   └── Article.jsx
+│   ├── data/
+│   │   └── stories.js          # All story content
+│   ├── App.jsx                 # Main app with routing
+│   ├── index.js                # Entry point
+│   └── index.css               # Global styles
+├── package.json                # Dependencies
+├── tailwind.config.js          # Tailwind customization
+├── postcss.config.js           # PostCSS config
+└── README.md                   # Full documentation
+
+
+CUSTOMIZATION:
+-------------
+
+1. Add Your Stories:
+   - Edit src/data/stories.js
+   - Add new story objects with your content
+
+2. Update Author Info:
+   - Edit src/pages/About.jsx
+   - Change "Your Name" and bio text
+
+3. Modify Colors:
+   - Edit tailwind.config.js
+   - Change color values in theme.extend.colors
+
+
+BUILD FOR PRODUCTION:
+--------------------
+
+When ready to deploy:
+npm run build
+
+This creates a 'build' folder with optimized files ready for hosting.
+
+
+TROUBLESHOOTING:
+---------------
+
+If you get errors:
+1. Make sure Node.js is installed (v14 or higher)
+2. Delete node_modules folder and package-lock.json
+3. Run npm install again
+4. Clear browser cache
+
+
+TECH STACK:
+-----------
+- React 18
+- React Router v6
+- Tailwind CSS 3
+- Custom fonts from Google Fonts
+
+
+Need help? Check README.md for detailed documentation.
