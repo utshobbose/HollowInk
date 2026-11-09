@@ -70,6 +70,7 @@ export const SEED_STORIES = [
     featured: true,
     viewsCount: 1420,
     reactionsCount: 312,
+    // Eerie ancient stone shrine & moonlit ruins
     coverImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117 0%, #201015 40%, #0a1510 100%)",
     heroGlow: "radial-gradient(ellipse 60% 50% at 40% 60%, rgba(155,36,36,0.3) 0%, transparent 70%)",
@@ -107,7 +108,8 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 980,
     reactionsCount: 215,
-    coverImage: "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=1200&q=80",
+    // Spooky, dark tangled misty trees & roots (Ancient Banyan)
+    coverImage: "https://images.unsplash.com/photo-1601873968252-6862fba1ff87?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117, #1a1525 40%, #0f1a10 100%)",
     heroGlow: "radial-gradient(ellipse 70% 60% at 50% 70%, rgba(42,61,46,0.3), transparent 70%)",
     tags: ["Bengal", "Sacred Tree", "Night Spirits", "Folklore"],
@@ -135,7 +137,8 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 2100,
     reactionsCount: 489,
-    coverImage: "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=1200&q=80",
+    // Misty, dark mangrove swamp waters & black tide
+    coverImage: "https://images.unsplash.com/photo-1589556183130-530470785fab?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117 0%, #1a1020 40%, #0a1510 100%)",
     heroGlow: "radial-gradient(ellipse 60% 50% at 40% 60%, rgba(155,36,36,0.25) 0%, transparent 70%)",
     tags: ["Bon Bibi", "Sundarban", "Bengal", "Delta"],
@@ -166,7 +169,8 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 840,
     reactionsCount: 178,
-    coverImage: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1200&q=80",
+    // Dark wet atmospheric Kolkata night street & shadows
+    coverImage: "https://images.unsplash.com/photo-1648964562779-36b7231fa44e?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117, #1a1020 40%, #150d1a 100%)",
     heroGlow: "radial-gradient(ellipse 70% 60% at 50% 70%, rgba(100,42,120,0.25), transparent 70%)",
     tags: ["Kolkata", "Urban Legend", "Rain", "Streets"],
@@ -194,7 +198,8 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 1120,
     reactionsCount: 245,
-    coverImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    // Dark ancient wooden gothic structure & shadowy ancestral arch
+    coverImage: "https://images.unsplash.com/photo-1576308598676-59f4664583b8?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117 0%, #151a1a 40%, #0d1510 100%)",
     heroGlow: "radial-gradient(ellipse 70% 60% at 50% 70%, rgba(58,74,92,0.3), transparent 70%)",
     tags: ["Kerala", "Tharavadu", "Yakshi", "Ancestral Horror"],
@@ -221,7 +226,8 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 760,
     reactionsCount: 189,
-    coverImage: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+    // Eerie antique pocket watch & dusty dark timepiece
+    coverImage: "https://images.unsplash.com/photo-1562537218-26057ef20502?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117 0%, #1a1510 40%, #1a0f0d 100%)",
     heroGlow: "radial-gradient(ellipse 70% 60% at 50% 70%, rgba(155,36,36,0.2), transparent 70%)",
     tags: ["Kolkata", "Clocks", "Mortality", "Psychological"],
@@ -248,7 +254,8 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 940,
     reactionsCount: 204,
-    coverImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    // Dark ominous misty woods and lake reflections
+    coverImage: "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117, #1a1525 40%, #0f1a10 100%)",
     heroGlow: "radial-gradient(ellipse 70% 60% at 50% 70%, rgba(42,61,46,0.25), transparent 70%)",
     tags: ["Sundarbans", "Fisherman", "Delta Bengal", "Ancient"],
@@ -274,7 +281,8 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 880,
     reactionsCount: 195,
-    coverImage: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1200&q=80",
+    // Eerie ceremonial flames & sinister folk ritual stage
+    coverImage: "https://images.unsplash.com/photo-1574336310290-8f545d91cd5f?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117, #1a1020 40%, #150d1a 100%)",
     heroGlow: "radial-gradient(ellipse 70% 60% at 50% 70%, rgba(100,42,120,0.3), transparent 70%)",
     tags: ["Jatra", "Dance", "Possession", "Folk Theatre"],
@@ -300,9 +308,10 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 690,
     reactionsCount: 154,
-    coverImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    // Ancient stone steps & ghat architecture in the dark night
+    coverImage: "https://images.unsplash.com/photo-1785140387910-06107bd56eb9?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117 0%, #201015 40%, #0a1510 100%)",
-    heroGlow: "radial-gradient(ellipse 60% 50% at 40% 60%, rgba(155,36,36,0.3) 0%, transparent 70%)",
+    heroGlow: "radial-gradient(ellipse 60% 50% at 40% 60%, rgba(155,36,36,0.3), transparent 70%)",
     tags: ["Varanasi", "Ghat", "River Ganges", "Ritual"],
     body: `<p class="mb-6 text-text-primary font-light">The stone steps descended into the sacred water, but the water around them refused to reflect the cremation fires blazing fifty paces upriver.</p>`
   },
@@ -324,7 +333,8 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 1040,
     reactionsCount: 230,
-    coverImage: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+    // Desert ruins / historic Rajasthani haveli in deep atmospheric shadows
+    coverImage: "https://images.unsplash.com/photo-1682414181885-a22c7a922cd7?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117 0%, #1a1510 40%, #1a0f0d 100%)",
     heroGlow: "radial-gradient(ellipse 70% 60% at 50% 70%, rgba(155,36,36,0.2), transparent 70%)",
     tags: ["Rajasthan", "Haveli", "Fresco", "Desert Gothic"],
@@ -349,7 +359,8 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 0,
     reactionsCount: 0,
-    coverImage: "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=1200&q=80",
+    // Dark ominous misty woods
+    coverImage: "https://images.unsplash.com/photo-1512810730836-1a7cde39c455?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117, #1a1525 40%, #0f1a10 100%)",
     heroGlow: "radial-gradient(ellipse 70% 60% at 50% 70%, rgba(42,61,46,0.25), transparent 70%)",
     tags: ["Malabar", "Sacred Grove", "Serpent", "Folklore"],
@@ -374,7 +385,8 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 0,
     reactionsCount: 0,
-    coverImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    // Deep underground stone vaults & subterranean staircase
+    coverImage: "https://images.unsplash.com/photo-1780324269424-db19c53c19f4?auto=format&fit=crop&w=1200&q=80",
     heroGradient: "linear-gradient(135deg, #0d1117 0%, #151a1a 40%, #0d1510 100%)",
     heroGlow: "radial-gradient(ellipse 70% 60% at 50% 70%, rgba(58,74,92,0.3), transparent 70%)",
     tags: ["Rajasthan", "Stepwell", "Baoli", "Underground"],
@@ -400,7 +412,8 @@ export const SEED_STORIES = [
     featured: false,
     viewsCount: 0,
     reactionsCount: 0,
-    coverImage: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1200&q=80",
+    // Dark heavy rain over wet riverbank
+    coverImage: "https://images.unsplash.com/photo-1499184949561-704bad5f6cd6?auto=format&fit=crop&w=1200&q=80",
     tags: ["Monsoon", "Bengal", "Rain", "River"],
     body: `<p class="mb-6 text-text-primary font-light">Draft notes: Focus on the sounds of water seeping through floorboards and the figures standing outside the verandah screen in the torrential darkness.</p>`
   }
@@ -447,4 +460,3 @@ export const SEED_HISTORY = [
     lastReadAt: "2026-01-25T11:20:00Z"
   }
 ];
-

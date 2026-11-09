@@ -92,6 +92,9 @@ const Article = () => {
             <img
               src={story.coverImage}
               alt={story.title}
+              onError={(e) => {
+                e.currentTarget.style.display = 'none';
+              }}
               className="w-full h-full object-cover opacity-25 filter blur-[2px]"
             />
           )}

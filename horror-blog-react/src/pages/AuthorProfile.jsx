@@ -234,6 +234,9 @@ const AuthorProfile = () => {
                     <img
                       src={story.coverImage}
                       alt={story.title}
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
                       className="w-full h-full object-cover filter brightness-75 group-hover:brightness-100 group-hover:scale-105 transition-all duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-bg-surface/80 via-transparent to-transparent"></div>

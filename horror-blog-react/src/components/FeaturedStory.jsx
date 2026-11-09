@@ -69,6 +69,9 @@ const FeaturedStory = () => {
               <img
                 src={story.coverImage}
                 alt={story.title}
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
                 className="w-full h-full object-cover opacity-80 group-hover:opacity-95 group-hover:scale-105 transition-all duration-700 ease-out"
               />
             )}

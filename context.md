@@ -165,7 +165,28 @@ The project is fully pre-configured for Supabase PostgreSQL integration:
 
 ---
 
-## 7. Build Verification
+## 7. Horror & Gothic Folklore Thumbnail Overhaul
+
+All story cover images have been audited and replaced with verified, authentic horror and South Asian gothic folklore photography:
+- **Removed Irrelevant Placeholders:** Completely eliminated the white PlayStation 5 controller, daytime sunny mountain landscapes, and pink sunset sky stock photos.
+- **Verified URLs:** Every image URL is tested and validated for high resolution and fast response.
+- **Atmospheric Alignment:**
+  - *The Weaver of Silent Threads:* Moonlit ancient ruined pillars and midnight mist (`photo-1518709268805-4e9042af9f23`).
+  - *The Whispers in the Banyan:* Ancient gnarled banyan roots and dense dark fog (`photo-1601873968252-6862fba1ff87`).
+  - *The Last Tide of Sundarban:* Submerged dark mangrove silhouettes in black delta waters (`photo-1589556183130-530470785fab`).
+  - *The Midnight Rickshaw:* Desolate wet Kolkata alleyway at midnight (`photo-1648964562779-36b7231fa44e`).
+  - *Beyond the Tharavadu:* Dark carved nalukettu wooden entrance & ancestral archway (`photo-1576308598676-59f4664583b8`).
+  - *The Parsi Watchmaker:* Moody antique pocket watch on deep black backdrop (`photo-1562537218-26057ef20502`).
+  - *Tide Country Spirits:* Pitch dark eerie lake with black water reflections (`photo-1478760329108-5c3ed9d495a0`).
+  - *The Jatra Dancer's Anklet:* Eerie ritual fire burning in night shadows (`photo-1574336310290-8f545d91cd5f`).
+  - *Rituals of the Forgotten Ghat:* Sunken ancient stone steps and ruined archways (`photo-1785140387910-06107bd56eb9`).
+  - *The Shadow of the Haveli:* Atmospheric Rajasthani haveli facade in deep desert shadows (`photo-1682414181885-a22c7a922cd7`).
+- **Zero-Friction LocalStorage Migration:** `src/services/storage.js` bumps the storage key to `hollowink_stories_v2` and automatically migrates any cached user data on reload, replacing old controller/mountain photos immediately.
+- **Fail-safe `onError` Handling:** `<img />` tags in `StoryCard`, `FeaturedStory`, `AuthorProfile`, and `Article` now incorporate fail-safe fallbacks so broken image icons never appear.
+
+---
+
+## 8. Build Verification
 
 - **Production Build:** Verified with `npm run build`
 - **Output:** Clean production bundle with **0 errors and 0 ESLint warnings**.
